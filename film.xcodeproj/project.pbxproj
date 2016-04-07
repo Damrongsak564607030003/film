@@ -14,6 +14,8 @@
 		49FB57EB1CAE4106006435C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FB57E91CAE4106006435C0 /* LaunchScreen.storyboard */; };
 		49FB57F61CAE4106006435C0 /* filmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB57F51CAE4106006435C0 /* filmTests.swift */; };
 		49FB58011CAE4106006435C0 /* filmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB58001CAE4106006435C0 /* filmUITests.swift */; };
+		49FB580F1CAE47B8006435C0 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB580E1CAE47B8006435C0 /* Artwork.swift */; };
+		49FB58111CAE48CD006435C0 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB58101CAE48CD006435C0 /* VCMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		49FB57FC1CAE4106006435C0 /* filmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = filmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FB58001CAE4106006435C0 /* filmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filmUITests.swift; sourceTree = "<group>"; };
 		49FB58021CAE4106006435C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FB580E1CAE47B8006435C0 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		49FB58101CAE48CD006435C0 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				49FB57E71CAE4106006435C0 /* Assets.xcassets */,
 				49FB57E91CAE4106006435C0 /* LaunchScreen.storyboard */,
 				49FB57EC1CAE4106006435C0 /* Info.plist */,
+				49FB580E1CAE47B8006435C0 /* Artwork.swift */,
+				49FB58101CAE48CD006435C0 /* VCMapView.swift */,
 			);
 			path = film;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FB58111CAE48CD006435C0 /* VCMapView.swift in Sources */,
 				49FB57E31CAE4106006435C0 /* ViewController.swift in Sources */,
+				49FB580F1CAE47B8006435C0 /* Artwork.swift in Sources */,
 				49FB57E11CAE4106006435C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
